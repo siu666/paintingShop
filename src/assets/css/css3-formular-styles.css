@@ -1,0 +1,91 @@
+
+
+
+
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0}
+.clearfix {display: block}
+html[xmlns] .clearfix {display: block}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%}
+.clearfix {display: block}
+/* End hide from IE-mac */
+
+
+ol {
+list-style-type: none;
+margin: 0;
+padding: 0
+}
+ol li {
+float: left;
+padding: 10px
+}
+ol li.last {
+float: none;
+clear: both;
+text-align: right
+}
+ol label {
+display:block;
+cursor: pointer;
+font-weight: bold;
+line-height: 24px
+}
+
+
+ol input,
+textarea {
+background-color:#FFF;
+color: #4d4d4d;
+border: 10px solid #c4c4c4;
+font: 13px Helvetica, Arial, "Nimbus Sans L", FreeSans, sans-serif;
+padding: 8px 12px;
+width: 150px;
+_width: 186px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 2px 2px 5px #e2e2e2, inset 2px 2px 5px #e2e2e2;
+-moz-box-shadow: 2px 2px 5px #e2e2e2, inset 2px 2px 5px #e2e2e2;
+box-shadow: 2px 2px 5px #e2e2e2, inset 2px 2px 5px #e2e2e2;
+/* IE filter */
+filter:progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=135, Strength=5);
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color='#e2e2e2', Direction=135, Strength=5)"
+}
+ol input:focus,
+textarea:focus {
+border-color: #4d4d4d;
+}
+ input[type="submit"] {
+background-color: #4d4d4d;
+color: #fff;
+cursor: pointer;
+font: italic bold 1em/1.2 Georgia, "Times New Roman", Times, Cambria, "Nimbus Roman No9 L", serif;
+border: 1px double #4d4d4d;
+margin: 10px;
+padding: 5px 10px;
+width: auto;
+
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+
+background: -moz-linear-gradient(top, #4d4d4d, #4d4d4d);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4d4d4d), color-stop(1, #4d4d4d));
+filter:	progid:DXImageTransform.Microsoft.gradient(startColorStr='#e1001a', EndColorStr='#c50a1f');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e1001a', EndColorStr='#c50a1f')";
+
+-moz-box-shadow: 1px 0 0 #4d4d4d, -1px 0 0 #4d4d4d, 0 1px 0 #4d4d4d, 0 -1px 0 #4d4d4d, 0 5px 10px -5px #666;
+-webkit-box-shadow: 1px 0 0 #4d4d4d, -1px 0 0 #4d4d4d, 0 1px 0 #4d4d4d, 0 -1px 0 #4d4d4d, 0 5px 10px -5px #666;
+box-shadow: 1px 0 0 #4d4d4d, -1px 0 0 #4d4d4d, 0 1px 0 #4d4d4d, 0 -1px 0 #4d4d4d, 0 5px 10px -5px #666;
+text-shadow: 1px 1px 3px #333
+}
+ol input[type="submit"]:hover {
+background: #4d4d4d;
+text-shadow: none;
+}
+.nav_input{
+  background-color: red;
+}
+
+

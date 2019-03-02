@@ -1,0 +1,27 @@
+{
+  "status":"0",
+  "msg":"",
+  "result":[
+    {
+      "paintId": "101",
+      "paintName":"picaso",
+      "paintPrice":258,
+      "paintStyle":"油画",
+      "paintImg":"1.jpg"
+    },
+    {
+      "paintId": "102",
+      "paintName":"dafenqi",
+      "paintPrice":268,
+      "paintStyle":"素描",
+      "paintImg":"2.jpg"
+    },
+    {
+      "paintId": "103",
+      "paintName":"sdsd",
+      "paintPrice":256,
+      "paintStyle":"山水",
+      "paintImg":"3.jpg"
+    }
+  ]
+}
